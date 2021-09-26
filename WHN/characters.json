@@ -1,0 +1,7 @@
+{
+
+  "charName" : ["Batman", "Superman"],
+
+  "Batman" : ["robin", "joker", "penguin", "harley"],
+  "Superman" : ["beams", "luthor", "bullet", "building"]
+}
