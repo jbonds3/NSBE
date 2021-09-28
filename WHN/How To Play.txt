@@ -1,0 +1,87 @@
+Game: What's his/her name
+
+a mix of head band guessing with optional rhyming mechanic,
+
+1 vs 1 with audience inclusion
+
+Instructions to start game:
+1. Open the whyMain.py file
+2. Execute code
+3. Enter the names of players and  press and enter 's' when done to start the Game
+4. When the round is over, press 'Enter key' for next round or 'd' to end Game
+
+******FEEL FREE TO CHANGE THE RULES JUST WRITE DOWN THE NEW ONES IN******
+******HOW TO PLAY V2 FILE PLEASE*****
+Ways to play:
+
+When the round starts the following will appear
+  - The Character to Guess (i.e. Superman, Batman, etc...)
+  - Information about character (i.e. Superman: laser-beams, Batman: Robin)
+
+1. No rhyming mechanic (Taboo playing style)
+  Ex. Superman vs Batman
+
+  People: Player 1, Player 2, & audience
+
+  Game:
+    Player1 gets the audince to guess his/her character
+    without saying the wording in the list (~30 secs)
+
+    Player2 gets the audince to guess his/her character
+    without saying the wording in the list (~30 secs)
+
+    PLAYER who wins get +3 point
+
+    Harder Version: The players are only given the list
+    and not the characters names
+
+    Repeat until character is guess or 2-3mins have passed
+
+2. Rhyming mechanic (TikTok game: I'm Talking About)
+  Ex. Superman vs Batman
+
+  People: Player 1, Player 2, & audience
+
+  Game:
+
+    1. Player1 looks at words in list
+    2. Comes up with 2-4 lines uses all words and rhymes (~30-45 secs)
+    3. For every line used, its -1 point
+    4. For every word used, it's +1 point
+    5. (~30-45 secs) to deliver
+
+    Ex. Batman:
+    (Optional start +1 point) What's his name
+    The superhero, sidekick Robin, called the Dark Knight (-1, +2)
+    Always in the streets of Gotham, punching out Joker's light (-1, +2)
+
+    Player1: 4 - 2 = 2 points
+
+    Player2 does the same
+
+    Best lyrics gets an additional (+1 point)
+
+    Harder Version: The players rhyme off each other last
+    line
+    -First to fumble loses
+    -Winner gets +4 points
+    -No additional point addition or deduction
+    -Must use all words (Up to y'all)
+
+    Ex: Batman vs Superman
+
+    P1: (Optional start +1 point) What's his name
+    The superhero, sidekick Robin, called the Dark Knight
+
+    P2: (Optional start +1 point) What's his name
+    The alien hero who can't stand Kryptonite
+
+    P1: The shadowy figure that swings through Gotham
+
+    P2: The tight wearing building jumper, saw Lex on the roof and rocked 'im'
+
+    P1: The man with a plan and a million gadgets
+
+    P2: the hero whose laser-beam eyes can chop a bullet better than a hatchet
+
+    If it's taking too long the audience decides a winner.
