@@ -1,7 +1,9 @@
 {
 
-  "charName" : ["Batman", "Superman"],
+  "charName" : ["Batman", "Superman", "Zendaya", "Johnny Deep"],
 
   "Batman" : ["robin", "joker", "penguin", "harley"],
-  "Superman" : ["beams", "luthor", "bullet", "building"]
+  "Superman" : ["beams", "luthor", "bullet", "building"],
+  "Zendaya" : ["Shake It Up", "Mary Jane", "Euphoria", "The Greatest Showman"],
+  "Johnny Deep" : ["Pirates", "Willy Wonka", "Edward Scissorhands", "Caribbean", "Blackbeard"]
 }
