@@ -1,5 +1,7 @@
 import re, json, random
 from random import choice
+from __future__ import print_function
+
 class Player:
     def __init__(self, name):
         self.name = name
