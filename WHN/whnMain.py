@@ -1,6 +1,6 @@
-import re, json, random
-from random import choice
 from __future__ import print_function
+from random import choice
+import re, json, random
 
 class Player:
     def __init__(self, name):
