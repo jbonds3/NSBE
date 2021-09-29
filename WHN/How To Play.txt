@@ -25,10 +25,10 @@ When the round starts the following will appear
 
   Game:
     Player1 gets the audince to guess his/her character
-    without saying the wording in the list (~30 secs)
+    without saying the wording in the list (~5-7 secs)
 
     Player2 gets the audince to guess his/her character
-    without saying the wording in the list (~30 secs)
+    without saying the wording in the list (~5-7 secs)
 
     PLAYER who wins get +3 point
 

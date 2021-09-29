@@ -13,8 +13,7 @@ def game(player1, player2, charactersUsed):
     charJSON = json.load(open("characters.json"))
 
     if len(range(0,len(charJSON) - 1)) - len(charactersUsed) != 0:
-        print()
-        print('player1 is % s' % player1.name)
+        print('\nplayer1 is % s' % player1.name)
         print('player2 is % s\n\n' % player2.name)
 
         characterInUse = list(set(range(0,len(charJSON) - 1)) - set(charactersUsed))
@@ -63,7 +62,7 @@ def main():
     nameList = []
 
     print('Enter phone numbers on players: ')
-    print('Hit Enter start (s) when done\n')
+    print('Hit Enter (s) when done:\n')
 
     print('Player {}'.format(len(nameList) + 1))
     print('Name: ', end='')
@@ -73,7 +72,7 @@ def main():
         inputTxt = input()
 
         if inputTxt in nameList:
-            print('Number already registered\n')
+            print('Name already registered\n')
             print('Player {}'.format(len(nameList) + 1))
             print('Phone #: ', end='')
 
