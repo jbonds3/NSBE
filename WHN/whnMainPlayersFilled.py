@@ -61,34 +61,9 @@ def main():
     charactersUsed = []
     nameList = []
 
-    print('Enter phone numbers on players: ')
-    print('Hit Enter (s) when done:\n')
-
-    print('Player {}'.format(len(nameList) + 1))
-    print('Name: ', end='')
-
     #players input phone numbers
-
-
-    while inputTxt != 's':
-        inputTxt = input()
-
-        if inputTxt in nameList:
-            print('Name already registered\n')
-            print('Player {}'.format(len(nameList) + 1))
-            print('Phone #: ', end='')
-
-        elif inputTxt != 's':
-            #Future phone number implementation
-            # if bool(re.match("[0-9]{10}", inputTxt)):
-            #     phoneNumList.append(inputTxt)
-            #     print('Entered.....\n\n')
-            # else :
-            #     print('Input was not a phone number\n')
-
-            nameList.append(inputTxt)
-            print('Player {}'.format(len(nameList) + 1))
-            print('Name: ', end='')
+    with open ("playerList.txt", "r") as myfile:
+        nameList = list(myfile.readlines())
 
     while inputTxt != 'd':
         for index, pNum in enumerate(nameList):

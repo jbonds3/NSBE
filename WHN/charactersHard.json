@@ -1,0 +1,10 @@
+{
+
+  "charName" : ["Selena Gomez", "Katy Perry", "Ryan Reynolds", "Arnold Schwarzenegger"],
+
+  "Selena Gomez" : ["Disney", "Wizards of Waverly Place", "Alex Russo", "Only Murders in the Building"],
+  "Katy Perry" : ["firework", "Dark Horse", "Roar", "California Gurls"],
+  "Ryan Reynolds" : ["Dead Pool", "Free Guy", "Scarlett Johansson", "Canada"],
+  "Arnold Schwarzenegger" : ["Terminator", "Austrian", "I'll be back", "Get to the Chopper"]
+  
+}
