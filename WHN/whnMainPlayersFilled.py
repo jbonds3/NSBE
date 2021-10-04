@@ -4,10 +4,22 @@ import re, json, random
 
 class Player:
     def __init__(self, name):
+        self.playerNum = 0
         self.name = name
         self.character = ''
         self.barList = []
         self.jsonIndex = 0
+
+class Players:
+    def __init__(self, players):
+        self.players = players
+
+def skip(str):
+    if isinstance(str, Player):
+        if str.playerNum == 1:
+            player = nameList()
+    elif isinstance(str, str):
+
 
 def game(player1, player2, charactersUsed):
     charJSON = json.load(open("characters.json"))
@@ -59,16 +71,18 @@ def game(player1, player2, charactersUsed):
 def main():
     inputTxt = ''
     charactersUsed = []
-    nameList = []
+    nameList = Players([])
 
     #players input phone numbers
     with open ("playerList.txt", "r") as myfile:
-        nameList = list(myfile.readlines())
+        nameList.players = list(myfile.readlines())
 
     while inputTxt != 'd':
         for index, pNum in enumerate(nameList):
             if index % 2 == 0:
                 player1, player2 = Player(nameList[index]), Player(nameList[index+1])
+                player1.playerNum = 1
+                player2.playerNum = 1
                 game(player1, player2, charactersUsed)
                 print('\nEnter d for done else hit enter for next round')
                 inputTxt = input()

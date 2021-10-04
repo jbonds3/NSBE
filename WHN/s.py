@@ -1,0 +1,1 @@
+print(isinstance('s', str))
